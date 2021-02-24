@@ -6,7 +6,21 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.container h1 {
+  text-align: center;
+}
+.flex-row {
+  display: flex;
+  justify-content: space-around;
+}
+table {
+  border-collapse: collapse;
+}
+table tr th,
+table tr td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

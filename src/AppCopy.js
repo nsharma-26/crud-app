@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import UserTable from './tables/UserTable'
+import UserTable from './tables/UserTableCopy'
 import AddUserForm from './forms/AddUserForm'
 import EditUserFrom from './forms/EditUserFrom'
 import './App.css'
